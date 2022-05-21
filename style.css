@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    background: #2E2F45;
+    margin: 20px auto;
+    color: white;
+    border-radius: 5px;
+    mix-blend-mode: multiply;
+    padding: 5px 10px;
+}
+main{
+    margin: auto;
+    width: 60%;
+}
+.video{
+    background: -webkit-linear-gradient(135deg, rgb(21, 44, 161), rgb(165, 50, 162));
+    background: -moz-linear-gradient(135deg, rgb(21, 44, 161), rgb(165, 50, 162));
+    background: linear-gradient(135deg, rgb(21, 44, 161), rgb(165, 50, 162)); 
+}
+.video:hover{
+    opacity: 0;
+    transition: ease-in, 2.5s;
+    width: 100%;
+}
+img{
+    width:500px ;
+}
+p{
+    width: 50%;
+}
+h2{
+    text-align: center;
+}
+.Starr p{
+    text-align: center;
+}
+.g p {
+    color:#6C8AD5;
+}
+.g p:hover{
+    color:#FFD173;
+    font-size: larger;
+    transition: 0.9s ease-in;
+}
+.fact::before{
+    content: "" ;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1em ;
+    background-image: url("шьп/did-you-know.png");
+}
+.fact{
+    text-align: center;
+}
+.four p{
+    height:30px;
+    width: 30px;
+    margin:auto ;
+}
+.four img{
+    height:50px;
+    width: 50px;
+    margin:auto ;
+
+}
+.four{
+    opacity:0.05;
+    width:50%
+}
+.four:hover{
+opacity: 1;
+transition: 2s ease-out;
+}
+.telegf::before{
+    content: "" ;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1em ;
+    background-image: url("шьп/send.png");
+}
+.ddd::before{
+    content: "" ;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1em ;
+    background-image: url("шьп/link.png");  
+}
