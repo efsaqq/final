@@ -12,7 +12,8 @@ h1{
 }
 main{
     margin: auto;
-    width: 60%;
+    width: 100%;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }
 .video{
     background: -webkit-linear-gradient(135deg, rgb(21, 44, 161), rgb(165, 50, 162));
@@ -37,11 +38,11 @@ h2{
     text-align: center;
 }
 .g p {
-    color:#6C8AD5;
+    color:	#000303;
 }
 .g p:hover{
-    color:#FFD173;
-    font-size: larger;
+    color:#060606;
+    font-size: 35px;
     transition: 0.9s ease-in;
 }
 .fact::before{
@@ -74,6 +75,11 @@ h2{
 opacity: 1;
 transition: 2s ease-out;
 }
+.four img:hover{
+height: 150px;
+width: 150px;
+transition: 2s ease-out;
+}
 .telegf::before{
     content: "" ;
     display: inline-block;
@@ -90,3 +96,28 @@ transition: 2s ease-out;
     background-size: 1em 1em ;
     background-image: url("шьп/link.png");  
 }
+p{
+    font-size: 30px;
+}
+.rrrr{
+  opacity:0.001;  
+  height: 50px;
+  width:50px;
+}
+.rrrr:hover{
+opacity: 1;
+transition: 2s ease-out;
+height: 150px;
+width: 150px;
+}
+.eee{
+    opacity:0.001;  
+    height: 50px;
+    width:50px;
+  }
+  .eee:hover{
+    opacity: 1;
+    transition: 2s ease-out;
+    height: 150px;
+    width: 150px;}
+
